@@ -307,32 +307,19 @@
         <h2 class="title is-3" style="background-color: #f0f0f0; padding: 10px;">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In robotic visuomotor policy learning, diffusion-based
-            models have achieved significant success in improving the
-            accuracy of action trajectory generation compared to tra-
-            ditional autoregressive models. However, they suffer from
-            inefficiency due to multiple denoising steps and limited flex-
-            ibility from complex constraints. In this paper, we introduce
-            <strong>C</strong>oarse-to-Fine <strong>A</strong>uto<strong>R</strong>egressive <strong>P</strong>olicy (CARP), a novel
-            paradigm for visuomotor policy learning that redefines the
-            autoregressive action generation process as a coarse-to-
-            fine, next-scale approach. CARP decouples action gener-
-            ation into two stages: first, an action autoencoder learns
-            multi-scale representations of the entire action sequence;
-            then, a GPT-style transformer refines the sequence predic-
-            tion through a coarse-to-fine autoregressive process. This
-            straightforward and intuitive approach produces highly ac-
-            curate and smooth actions, matching or even surpassing
-            the performance of diffusion-based policies while main-
-            taining efficiency on par with autoregressive policies. We
-            conduct extensive evaluations across diverse settings, in-
-            cluding single-task and multi-task scenarios on state-based
-            and image-based simulation benchmarks, as well as real-
-            world tasks. CARP achieves competitive success rates, with
-            up to a 10% improvement, and delivers <strong>10×</strong> faster infer-
-            ence compared to state-of-the-art policies, establishing a
-            high-performance, efficient, and flexible paradigm for ac-
-            tion generation in robotic tasks.
+            In robotic visuomotor policy learning, diffusion-based models have achieved significant success in improving the 
+            accuracy of action trajectory generation compared to traditional autoregressive models. However, they suffer from
+            inefficiency due to multiple denoising steps and limited flexibility from complex constraints. In this paper, we introduce
+            <strong>C</strong>oarse-to-Fine <strong>A</strong>uto<strong>R</strong>egressive <strong>P</strong>olicy (<strong>CARP</strong>), a novel
+            paradigm for visuomotor policy learning that redefines the autoregressive action generation process as a coarse-to-fine, next-scale approach. 
+            CARP decouples action generation into two stages: first, an action autoencoder learns multi-scale representations of the entire action sequence; then, 
+            a GPT-style transformer refines the sequence prediction through a coarse-to-fine autoregressive process. 
+            This straightforward and intuitive approach produces highly accurate and smooth actions, matching or even surpassing 
+            the performance of diffusion-based policies while maintaining efficiency on par with autoregressive policies. 
+            We conduct extensive evaluations across diverse settings, including single-task and multi-task scenarios on state-based
+            and image-based simulation benchmarks, as well as real-world tasks. CARP achieves competitive success rates, 
+            with up to a <strong>10%</strong> improvement, and delivers <strong>10×</strong> faster inference compared to state-of-the-art policies, 
+            establishing a high-performance, efficient, and flexible paradigm for action generation in robotic tasks.
           </p>
         </div>
       </div>
